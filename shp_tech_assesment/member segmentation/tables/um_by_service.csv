@@ -1,0 +1,10 @@
+service_type,requests,denial_rate,pending,avg_tat_days,appeal_rate
+MRI,92,0.2391,0.0326,4.1087,0.0543
+Surgery,100,0.22,0.09,3.95,0.08
+Physical therapy,99,0.2121,0.0202,3.9495,0.101
+DME,81,0.1975,0.0247,4.1728,0.0494
+Specialty medication,83,0.1928,0.0602,3.7952,0.0361
+Inpatient admission,83,0.1928,0.0361,4.0723,0.0602
+CT Scan,83,0.1807,0.012,3.9036,0.0602
+Home health,96,0.1771,0.0625,3.9583,0.0417
+Skilled nursing facility,83,0.1687,0.0482,3.9759,0.0361

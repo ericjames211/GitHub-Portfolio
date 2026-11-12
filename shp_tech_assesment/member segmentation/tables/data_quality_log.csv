@@ -1,0 +1,20 @@
+area,issue,records_affected,handling
+encounters,member_id is 14 chars (MBR-0000097101) vs 12 chars elsewhere; trailing '01' suffix on every row,3000,Stripped suffix (integer // 100) -> 99.2% of encounter rows then match a member in claims
+all,"Extract has member IDs 1-1000 only (994 with claims) vs ~250,000 covered lives in the scenario",1000,"Treated as a ~1,000-member sample. Report relative patterns/rates, never extrapolate $ totals to 250k"
+all,"No members/eligibility file: no demographics, enrollment dates, premiums or member-months",0,"Assumed all 1,000 members continuously enrolled for the 288-day window (Jan 1 - Oct 15, 2025)"
+claims,Claims window ends 2025-10-15 (not full-year 2025); paid dates run to 2025-11-28 (after the scenario's Oct 17 date),427,Used incurred (claim_date) for trend; flagged Sep-Oct as incomplete; kept paid_amount as given
+claims,"DENIED claims carry a paid_date (dictionary: null for denied) and member_responsibility > 0 ($172,693 total)",284,"Paid amount is $0 on all denied claims, so cost = paid_amount; member_responsibility on denials noted but excluded from plan cost"
+claims,PENDING claims already have paid_amount > 0 (and 96% a paid_date),119,Included in plan cost (paid_amount as reported); sensitivity: excluding them changes totals by 2.6%
+claims,"Diagnosis codes look weakly related to setting: e.g. Z00.00 (routine exam), J06.9 (URI), R51 (headache) appear as the diagnosis on inpatient stays costing $20k+",192,Kept as recorded; flagged as a coding / clinical-validation finding (or synthetic-data artefact). Condition analysis uses both claim dx and encounter flags
+claims,310 inpatient claims vs 242 inpatient-admit encounters for the same members,68,Counted utilisation from encounters (admits) and cost from claims; not reconciled 1:1 (no shared key)
+encounters,encounter_type missing,2,"Left as 'UNKNOWN'; 1 has an inpatient-style stay, 1 has COPD flag - excluded from type-specific counts"
+encounters,Each inpatient stay appears as an ADMIT row and (for most) a DISCHARGE row (242 admits vs 227 discharges),469,Counted stays from INPATIENT_ADMIT rows only to avoid double counting
+encounters,readmission_flag TRUE on 18 admits but only 5 admits fall within 30 days of that member's prior discharge in this extract,18,Used the provided flag for reporting (cannot see pre-2025 stays) and noted that it cannot be reproduced; recommend validating the flag logic
+care_mgmt,risk_score above documented 0-10 range,5,Kept; capped at 10 when used in comparisons
+care_mgmt,enrollment_status=COMPLETED but program_completion_flag=FALSE,66,Used enrollment_status as the completion indicator; flag reported separately
+care_mgmt,disenrollment dates later than the data window / scenario date (up to 2026-04-11) on COMPLETED/DISENROLLED rows,43,Treated as scheduled/future-dated: enrollment considered open through the window for those rows
+care_mgmt,Same member enrolled in the same program more than once (repeat enrollments),271,Kept (re-enrollment is plausible); member-level analyses use first enrollment
+care_mgmt,209 of 400 enrollments began in 2024 but claims start Jan 2025 - no pre-enrollment claims for those members,209,Pre/post analysis restricted to members first enrolled Feb-Jul 2025
+um,service_type vs procedure_code mismatches (e.g. DME and Home health coded with office-visit E/M codes 9921x),442,Not used analytically; flagged
+ops,performance_status is direction-aware (+/-5% band) for most metrics but Medical Loss Ratio is labelled as if higher=better (e.g. 96.6% vs 85% target = ABOVE_TARGET),10,Re-derived favourable/unfavourable status with explicit direction (lower MLR = favourable to plan margin)
+ops,Free-text notes are inconsistent with values (e.g. 'Data quality issue resolved' on Member Satisfaction 4.32; 'Below target - action plan needed' once),9,Ignored notes

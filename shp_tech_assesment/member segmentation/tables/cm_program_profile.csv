@@ -1,0 +1,5 @@
+program_name,enrollments,members,avg_risk,contact_rate,assess,care_plan,goals_met,total_goals,pct_completed,pct_disenrolled,pct_active,goal_attainment
+Asthma Control,87,49,5.4323,0.4716,1.1494,0.6552,127,286,0.2874,0.1494,0.5632,0.4441
+Cardiac Care,121,69,6.259,0.4658,1.1736,0.6612,188,408,0.2727,0.124,0.6033,0.4608
+Diabetes Management,115,78,7.0592,0.5022,1.2435,0.6783,186,388,0.2957,0.1043,0.6,0.4794
+High-Risk Case Management,77,47,5.2451,0.5132,1.2597,0.7143,116,265,0.2338,0.0779,0.6883,0.4377

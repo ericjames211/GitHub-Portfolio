@@ -1,0 +1,1385 @@
+{
+ "n_members_universe": 1000,
+ "members_in_claims": 994,
+ "members_in_encounters": 946,
+ "readmit_flagged": 18,
+ "readmit_recomputed": 5,
+ "n_admits": 242,
+ "claim_p99_cap": 31694.346800000032,
+ "total_paid": 9118681.52,
+ "avg_paid_member": 9118.68152,
+ "median_paid_member": 3274.6400000000003,
+ "annualized_paid_pmpy": 11556.662343055556,
+ "top1pct_share": 0.07640426836620126,
+ "top5pct_share": 0.2674181135344663,
+ "top10pct_share": 0.4479510158394039,
+ "top20pct_share": 0.6973669390747622,
+ "pct_members_with_no_claims": 0.006,
+ "val_spearman_paid": -0.0022878126316134037,
+ "val_spearman_score_paid_h2": 0.02123322081037437,
+ "val_spearman_score_ed_h2": 0.0028210230882054774,
+ "val_spearman_nchronic_paid_h2": -0.0013939593680601847,
+ "val_top_decile_h1_paid_h2": 3194.167,
+ "val_rest_paid_h2": 3123.497477777778,
+ "val_ed_corr": 0.03913763287998529,
+ "val_ip_corr": 0.022911054557768092,
+ "paid_by_nchronic": {
+  "0": 8711.0,
+  "1": 10203.0,
+  "2": 10761.0,
+  "3": 7136.0
+ },
+ "cm_ever_share": 0.243,
+ "cm_active_share": 0.188,
+ "target_top5_enrolled": 0.36,
+ "target_top10_enrolled": 0.35,
+ "rs_vs_paid_spearman": -0.03235454620014228,
+ "rs_vs_ed_spearman": 0.011882151101065762,
+ "rs_by_program": {
+  "Asthma Control": 5.43,
+  "Cardiac Care": 6.26,
+  "Diabetes Management": 7.06,
+  "High-Risk Case Management": 5.25
+ },
+ "n_very_high": 12,
+ "n_high": 61,
+ "vh_not_enrolled": 4,
+ "high_not_enrolled": 33,
+ "high_plus_not_enrolled_paid": 1152431.76,
+ "high_plus_paid_share": 0.25963812584168416,
+ "standardised": {
+  "paid_pm": {
+   "cm": 10189.865061728395,
+   "non_cm_standardised": 8777.54084285639
+  },
+  "ed_per_member": {
+   "cm": 0.32098765432098764,
+   "non_cm_standardised": 0.4528475681659567
+  },
+  "ip_per_member": {
+   "cm": 0.25925925925925924,
+   "non_cm_standardised": 0.25760173754000915
+  }
+ },
+ "did_n_treated": 68,
+ "did_n_control": 757,
+ "did_drop_top5_cost": 178.2006533620197,
+ "did_treated_ip_any_pre": 0.058823529411764705,
+ "did_treated_ip_any_post": 0.10294117647058823,
+ "cm_funnel": {
+  "Enrollments": 400,
+  "Reached at least once": 367,
+  "Assessment completed": 270,
+  "Care plan created": 270,
+  "Has goals set": 270,
+  "Met >=50% of goals": 139,
+  "Completed (status)": 110
+ },
+ "cm_contact_rate_overall": 0.48695118206938903,
+ "cm_goal_attainment_overall": 0.4580549368968077,
+ "cm_status": {
+  "ACTIVE": 244,
+  "COMPLETED": 110,
+  "DISENROLLED": 46
+ },
+ "cm_closed_completion_rate": 0.7051282051282052,
+ "cm_completion_flag_true": 44,
+ "active_n": 244,
+ "active_gt365": 81,
+ "active_gt180": 187,
+ "active_gt180_noplan": 65,
+ "active_gt180_no_contact_or_assess": 65,
+ "active_median_tenure_days": 311.0,
+ "mgr_goal_att_range": [
+  0.2702702702702703,
+  0.6222222222222222
+ ],
+ "mgr_contact_range": [
+  0.33084554334554334,
+  0.5523554223554223
+ ],
+ "same_prog_overlap": 128,
+ "same_prog_repeat": 157,
+ "svc_share": {
+  "INPATIENT": 0.695,
+  "OUTPATIENT": 0.144,
+  "EMERGENCY": 0.074,
+  "PHARMACY": 0.046,
+  "PROFESSIONAL": 0.042
+ },
+ "chronic_any_members": 362,
+ "chronic_any_paid_share": 0.39050276974691406,
+ "chronic_dx_paid_share": 0.390502769746914,
+ "nonspecific_dx_paid_share": 0.609497230253086,
+ "ip_paid_share": 0.6947569849988576,
+ "ip_claims": 310,
+ "ip_avg_paid": 20436.34735483871,
+ "ip_nonspecific_dx_pct_claims": 0.6193548387096774,
+ "ip_nonspecific_paid": 3752609.16,
+ "ip_z0000_claims": 28,
+ "ip_z0000_paid": 488609.49,
+ "ip_lowacuity_claims": 83,
+ "ip_lowacuity_paid": 1604677.1800000002,
+ "ip_admits_per_1000_yr": 306.70138888888886,
+ "ed_per_1000_yr": 471.4583333333333,
+ "readmit_rate_flag": 0.0743801652892562,
+ "avg_los": 7.2727272727272725,
+ "ed_members": 303,
+ "ed_3plus_members": 8,
+ "ed_3plus_visit_share": 0.07258064516129033,
+ "pct_members_preventive": 0.362,
+ "pct_chronic_preventive": 0.3784530386740331,
+ "pct_nonchronic_preventive": 0.35266457680250785,
+ "claim_denial_rate": 0.07725490196078431,
+ "top20_provider_share": 0.24079191001288527,
+ "n_providers": 200,
+ "providers_denial_sig": [
+  "PRV-00000150"
+ ],
+ "provider_oe_gt15": 8,
+ "provider_oe_sd": 0.30997970339507963,
+ "provider_oe_sd_null_mean": 0.2873053029006534,
+ "provider_oe_sd_null_p95": 0.30539628359744275,
+ "top10_facility_ip_share": 0.3605460472034861,
+ "n_facilities": 50,
+ "facility_admit_median": 5.0,
+ "denied_claims": 394,
+ "denied_allowed": 1126274.18,
+ "denied_member_resp": 172692.77000000002,
+ "denied_top20prov_share": 0.23604060913705585,
+ "um_denial_rate": 0.20784313725490197,
+ "um_denials": 159,
+ "um_appeals": 47,
+ "um_appeal_outcomes": {
+  "UPHELD": 24,
+  "OVERTURNED": 17,
+  "PENDING": 6
+ },
+ "um_overturn_rate": 0.4146341463414634,
+ "um_appeal_rate": 0.29559748427672955,
+ "um_urgent_n": 218,
+ "um_urgent_gt3d": 0.5275229357798165,
+ "um_urgent_tat_mean": 3.8486238532110093,
+ "um_tat_mean": 3.98625,
+ "um_tat_by_urgency": {
+  "EMERGENCY": 4.16,
+  "STANDARD": 4.04,
+  "URGENT": 3.77
+ },
+ "um_denial_by_urgency": {
+  "EMERGENCY": 0.136,
+  "STANDARD": 0.203,
+  "URGENT": 0.201
+ },
+ "um_denial_reasons": {
+  "Not medically necessary": 39,
+  "Insufficient documentation": 33,
+  "Experimental/investigational": 30,
+  "Alternative treatment available": 30,
+  "Out of network": 27
+ },
+ "um_units_gap": 0.033654605782904135,
+ "um_members_denied_2plus": 15,
+ "trend_jan_jun_pmpm": 998.0195150000001,
+ "trend_jul_sep_pmpm": 861.1314833333332,
+ "trend_oct_pmpm_adj": 1108.9311594666665,
+ "lag_days_mean": 27.383887252839713,
+ "ops_unfav": {
+  "Average Call Wait Time": 4,
+  "Care Management Enrollment Rate": 7,
+  "Care Plan Completion Rate": 5,
+  "Emergency Department Visit Rate": 3,
+  "Generic Dispensing Rate": 3,
+  "Hospital Readmission Rate": 4,
+  "Medical Loss Ratio": 4,
+  "Member Satisfaction Score": 2,
+  "Preventive Care Completion Rate": 3,
+  "Prior Authorization Turnaround Time": 2
+ },
+ "ops_avg": {
+  "Average Call Wait Time": 3.04,
+  "Care Management Enrollment Rate": 23.69,
+  "Care Plan Completion Rate": 73.21,
+  "Emergency Department Visit Rate": 44.4,
+  "Generic Dispensing Rate": 85.1,
+  "Hospital Readmission Rate": 11.98,
+  "Medical Loss Ratio": 84.73,
+  "Member Satisfaction Score": 4.4,
+  "Preventive Care Completion Rate": 65.96,
+  "Prior Authorization Turnaround Time": 2.45
+ },
+ "recon": {
+  "ED visits /1000 (recomputed vs ops)": [
+   37.2,
+   44.394999999999996
+  ],
+  "CM members % (recomputed vs ops)": [
+   20.169999999999998,
+   23.690999999999995
+  ],
+  "Readmit % (recomputed vs ops)": [
+   8.034910439801745,
+   11.975
+  ],
+  "PA TAT days (recomputed vs ops)": [
+   3.982083765530033,
+   2.454
+  ],
+  "Preventive: % members with >=1 preventive visit YTD vs ops 'completion rate'": [
+   36.199999999999996,
+   65.956
+  ],
+  "CM members % ever-enrolled vs ops": [
+   24.3,
+   23.690999999999995
+  ]
+ },
+ "ops_mlr_avg": 84.72999999999999,
+ "ops_mlr_months_over": 6,
+ "tier_table": [
+  {
+   "risk_tier": "Low (0-1)",
+   "members": 646,
+   "paid_total": 3231309.76,
+   "paid_pm": 5002.0275,
+   "median_paid": 2719.135,
+   "ip_admits_per_100": 14.8607,
+   "ed_per_100": 32.8173,
+   "avg_chronic": 0.1486,
+   "pct_cm_enrolled": 0.0913,
+   "pct_cm_active": 0.0635,
+   "pct_preventive": 0.3793,
+   "pct_members": 0.646,
+   "pct_spend": 0.3544,
+   "not_enrolled": 587
+  },
+  {
+   "risk_tier": "Moderate (2-3)",
+   "members": 281,
+   "paid_total": 3519814.38,
+   "paid_pm": 12526.0298,
+   "median_paid": 4554.18,
+   "ip_admits_per_100": 29.5374,
+   "ed_per_100": 41.2811,
+   "avg_chronic": 1.5836,
+   "pct_cm_enrolled": 0.5267,
+   "pct_cm_active": 0.427,
+   "pct_preventive": 0.3238,
+   "pct_members": 0.281,
+   "pct_spend": 0.386,
+   "not_enrolled": 133
+  },
+  {
+   "risk_tier": "High (4-5)",
+   "members": 61,
+   "paid_total": 2145267.84,
+   "paid_pm": 35168.3252,
+   "median_paid": 38900.01,
+   "ip_admits_per_100": 62.2951,
+   "ed_per_100": 60.6557,
+   "avg_chronic": 1.2623,
+   "pct_cm_enrolled": 0.459,
+   "pct_cm_active": 0.3607,
+   "pct_preventive": 0.3279,
+   "pct_members": 0.061,
+   "pct_spend": 0.2353,
+   "not_enrolled": 33
+  },
+  {
+   "risk_tier": "Very high (6+)",
+   "members": 12,
+   "paid_total": 222289.54,
+   "paid_pm": 18524.1283,
+   "median_paid": 13003.485,
+   "ip_admits_per_100": 208.3333,
+   "ed_per_100": 58.3333,
+   "avg_chronic": 1.75,
+   "pct_cm_enrolled": 0.6667,
+   "pct_cm_active": 0.4167,
+   "pct_preventive": 0.5,
+   "pct_members": 0.012,
+   "pct_spend": 0.0244,
+   "not_enrolled": 4
+  }
+ ],
+ "seg_table": [
+  {
+   "segment": "A. Hospital-driven high cost",
+   "members": 22,
+   "paid_pm": 39489.1814,
+   "paid_total": 868761.99,
+   "ip_per_100": 118.1818,
+   "ed_per_100": 31.8182,
+   "avg_chronic": 0.7727,
+   "pct_cm_ever": 0.4091,
+   "pct_cm_active": 0.2273,
+   "pct_preventive": 0.4091,
+   "pct_members": 0.022,
+   "pct_spend": 0.0953
+  },
+  {
+   "segment": "B. Frequent ED users",
+   "members": 8,
+   "paid_pm": 6162.005,
+   "paid_total": 49296.04,
+   "ip_per_100": 37.5,
+   "ed_per_100": 337.5,
+   "avg_chronic": 0.75,
+   "pct_cm_ever": 0.25,
+   "pct_cm_active": 0.125,
+   "pct_preventive": 0.125,
+   "pct_members": 0.008,
+   "pct_spend": 0.0054
+  },
+  {
+   "segment": "C. Multi-condition chronic",
+   "members": 184,
+   "paid_pm": 8729.7214,
+   "paid_total": 1606268.74,
+   "ip_per_100": 21.1957,
+   "ed_per_100": 35.8696,
+   "avg_chronic": 2.4565,
+   "pct_cm_ever": 0.7011,
+   "pct_cm_active": 0.5707,
+   "pct_preventive": 0.3533,
+   "pct_members": 0.184,
+   "pct_spend": 0.1762
+  },
+  {
+   "segment": "D. Single chronic condition",
+   "members": 164,
+   "paid_pm": 9495.5217,
+   "paid_total": 1557265.56,
+   "ip_per_100": 20.122,
+   "ed_per_100": 28.0488,
+   "avg_chronic": 1.0,
+   "pct_cm_ever": 0.628,
+   "pct_cm_active": 0.4695,
+   "pct_preventive": 0.4024,
+   "pct_members": 0.164,
+   "pct_spend": 0.1708
+  },
+  {
+   "segment": "E. Low-need, engaged in primary care",
+   "members": 554,
+   "paid_pm": 8131.4297,
+   "paid_total": 4504812.08,
+   "ip_per_100": 23.2852,
+   "ed_per_100": 36.8231,
+   "avg_chronic": 0.0,
+   "pct_cm_ever": 0.0,
+   "pct_cm_active": 0.0,
+   "pct_preventive": 0.3989,
+   "pct_members": 0.554,
+   "pct_spend": 0.494
+  },
+  {
+   "segment": "F. Low-need, no primary-care touch",
+   "members": 68,
+   "paid_pm": 7827.6046,
+   "paid_total": 532277.11,
+   "ip_per_100": 17.6471,
+   "ed_per_100": 32.3529,
+   "avg_chronic": 0.0,
+   "pct_cm_ever": 0.0,
+   "pct_cm_active": 0.0,
+   "pct_preventive": 0.0,
+   "pct_members": 0.068,
+   "pct_spend": 0.0584
+  }
+ ],
+ "did_table": [
+  {
+   "outcome": "Paid $ per member-month (claims capped at P99)",
+   "treated_pre": 563.0821,
+   "treated_post": 1153.4762,
+   "control_pre": 972.6873,
+   "control_post": 854.0547,
+   "did": 709.0267,
+   "ci_low": 27.4607,
+   "ci_high": 1342.5314,
+   "p_boot": 0.0367
+  },
+  {
+   "outcome": "Paid $ per member-month (uncapped)",
+   "treated_pre": 585.8698,
+   "treated_post": 1223.449,
+   "control_pre": 1001.9066,
+   "control_post": 878.8025,
+   "did": 760.6833,
+   "ci_low": 72.1518,
+   "ci_high": 1495.2695,
+   "p_boot": 0.0267
+  },
+  {
+   "outcome": "ED visits per 1,000 member-months",
+   "treated_pre": 38.3025,
+   "treated_post": 39.4602,
+   "control_pre": 37.3003,
+   "control_post": 42.8008,
+   "did": -4.3428,
+   "ci_low": -42.475,
+   "ci_high": 31.8463,
+   "p_boot": 0.87
+  },
+  {
+   "outcome": "Inpatient admits per 1,000 member-months",
+   "treated_pre": 19.7966,
+   "treated_post": 22.1888,
+   "control_pre": 23.2634,
+   "control_post": 25.6005,
+   "did": 0.0551,
+   "ci_low": -28.4874,
+   "ci_high": 28.4093,
+   "p_boot": 0.95
+  }
+ ],
+ "dose_table": [
+  {
+   "engagement_marker": "Care plan created",
+   "group": "Yes",
+   "n": 49,
+   "chg_cost_pm": 410.257,
+   "se_cost": 335.106,
+   "chg_ed_per_1000_mo": -4.497
+  },
+  {
+   "engagement_marker": "Care plan created",
+   "group": "No",
+   "n": 19,
+   "chg_cost_pm": 1054.959,
+   "se_cost": 771.187,
+   "chg_ed_per_1000_mo": 15.74
+  },
+  {
+   "engagement_marker": "Assessment completed (>=1)",
+   "group": "Yes",
+   "n": 49,
+   "chg_cost_pm": 410.257,
+   "se_cost": 335.106,
+   "chg_ed_per_1000_mo": -4.497
+  },
+  {
+   "engagement_marker": "Assessment completed (>=1)",
+   "group": "No",
+   "n": 19,
+   "chg_cost_pm": 1054.959,
+   "se_cost": 771.187,
+   "chg_ed_per_1000_mo": 15.74
+  },
+  {
+   "engagement_marker": "Contact rate >= 50%",
+   "group": "Yes",
+   "n": 37,
+   "chg_cost_pm": 796.333,
+   "se_cost": 316.85,
+   "chg_ed_per_1000_mo": -5.674
+  },
+  {
+   "engagement_marker": "Contact rate >= 50%",
+   "group": "No",
+   "n": 31,
+   "chg_cost_pm": 344.596,
+   "se_cost": 601.111,
+   "chg_ed_per_1000_mo": 9.312
+  },
+  {
+   "engagement_marker": "Goal attainment >= 50%",
+   "group": "Yes",
+   "n": 23,
+   "chg_cost_pm": 307.915,
+   "se_cost": 491.615,
+   "chg_ed_per_1000_mo": -1.63
+  },
+  {
+   "engagement_marker": "Goal attainment >= 50%",
+   "group": "No",
+   "n": 45,
+   "chg_cost_pm": 734.772,
+   "se_cost": 419.32,
+   "chg_ed_per_1000_mo": 2.583
+  }
+ ],
+ "val_table": [
+  {
+   "tier_h1": "Low (0-1)",
+   "members": 676,
+   "paid_h2_per_member": 2961.107,
+   "ed_h2_per_100": 14.053,
+   "ip_h2_per_100": 8.284
+  },
+  {
+   "tier_h1": "Moderate (2-3)",
+   "members": 271,
+   "paid_h2_per_member": 3453.622,
+   "ed_h2_per_100": 16.236,
+   "ip_h2_per_100": 7.749
+  },
+  {
+   "tier_h1": "High (4-5)",
+   "members": 45,
+   "paid_h2_per_member": 4107.971,
+   "ed_h2_per_100": 17.778,
+   "ip_h2_per_100": 17.778
+  },
+  {
+   "tier_h1": "Very high (6+)",
+   "members": 8,
+   "paid_h2_per_member": 1008.242,
+   "ed_h2_per_100": 12.5,
+   "ip_h2_per_100": 25.0
+  }
+ ],
+ "crude": {
+  "CM-enrolled (ever)": {
+   "members": 243.0,
+   "paid_pmpm": 1075.597,
+   "ip_per_1000_mo": 27.366,
+   "ed_per_1000_mo": 33.882,
+   "readmits": 7.0,
+   "n_chronic": 1.77,
+   "pct_chronic": 1.0
+  },
+  "Not enrolled": {
+   "members": 757.0,
+   "paid_pmpm": 926.232,
+   "ip_per_1000_mo": 24.96,
+   "ed_per_1000_mo": 40.995,
+   "readmits": 11.0,
+   "n_chronic": 0.276,
+   "pct_chronic": 0.157
+  }
+ },
+ "chron": {
+  "CM-enrolled, >=1 chronic cond": {
+   "members": 243.0,
+   "paid_pmpm": 1075.597,
+   "ip_per_1000_mo": 27.366,
+   "ed_per_1000_mo": 33.882,
+   "readmits": 7.0,
+   "n_chronic": 1.77,
+   "pct_chronic": 1.0
+  },
+  "Not enrolled, >=1 chronic cond": {
+   "members": 119.0,
+   "paid_pmpm": 962.182,
+   "ip_per_1000_mo": 22.176,
+   "ed_per_1000_mo": 45.238,
+   "readmits": 2.0,
+   "n_chronic": 1.756,
+   "pct_chronic": 1.0
+  }
+ },
+ "coh_table": [
+  {
+   "condition": "Cardiac",
+   "members": 137,
+   "pct_members": 0.137,
+   "paid_pm": 11262.3783,
+   "vs_rest": 1.283,
+   "total_paid": 1542945.83,
+   "share_of_spend": 0.1692,
+   "ip_per_100": 17.5182,
+   "ed_per_100": 33.5766,
+   "readmits": 2,
+   "pct_cm_enrolled": 0.6131,
+   "pct_preventive": 0.3504,
+   "dx_attributed_paid": 840362.92,
+   "dx_share": 0.0922
+  },
+  {
+   "condition": "Asthma",
+   "members": 140,
+   "pct_members": 0.14,
+   "paid_pm": 9597.1761,
+   "vs_rest": 1.0615,
+   "total_paid": 1343604.66,
+   "share_of_spend": 0.1473,
+   "ip_per_100": 27.1429,
+   "ed_per_100": 34.2857,
+   "readmits": 6,
+   "pct_cm_enrolled": 0.6643,
+   "pct_preventive": 0.3857,
+   "dx_attributed_paid": 845901.8,
+   "dx_share": 0.0928
+  },
+  {
+   "condition": "COPD",
+   "members": 126,
+   "pct_members": 0.126,
+   "paid_pm": 9385.7725,
+   "vs_rest": 1.0337,
+   "total_paid": 1182607.34,
+   "share_of_spend": 0.1297,
+   "ip_per_100": 25.3968,
+   "ed_per_100": 35.7143,
+   "readmits": 4,
+   "pct_cm_enrolled": 0.7143,
+   "pct_preventive": 0.4048,
+   "dx_attributed_paid": 733880.59,
+   "dx_share": 0.0805
+  },
+  {
+   "condition": "Hypertension",
+   "members": 125,
+   "pct_members": 0.125,
+   "paid_pm": 8406.2652,
+   "vs_rest": 0.9117,
+   "total_paid": 1050783.15,
+   "share_of_spend": 0.1152,
+   "ip_per_100": 24.0,
+   "ed_per_100": 42.4,
+   "readmits": 2,
+   "pct_cm_enrolled": 0.68,
+   "pct_preventive": 0.336,
+   "dx_attributed_paid": 650208.58,
+   "dx_share": 0.0713
+  },
+  {
+   "condition": "Diabetes",
+   "members": 111,
+   "pct_members": 0.111,
+   "paid_pm": 7930.2826,
+   "vs_rest": 0.8557,
+   "total_paid": 880261.37,
+   "share_of_spend": 0.0965,
+   "ip_per_100": 29.7297,
+   "ed_per_100": 34.2342,
+   "readmits": 5,
+   "pct_cm_enrolled": 0.7027,
+   "pct_preventive": 0.3333,
+   "dx_attributed_paid": 490516.5,
+   "dx_share": 0.0538
+  }
+ ],
+ "prog_table": [
+  {
+   "program_name": "Asthma Control",
+   "enrollments": 87,
+   "members": 49,
+   "avg_risk": 5.4323,
+   "contact_rate": 0.4716,
+   "assess": 1.1494,
+   "care_plan": 0.6552,
+   "goals_met": 127,
+   "total_goals": 286,
+   "pct_completed": 0.2874,
+   "pct_disenrolled": 0.1494,
+   "pct_active": 0.5632,
+   "goal_attainment": 0.4441
+  },
+  {
+   "program_name": "Cardiac Care",
+   "enrollments": 121,
+   "members": 69,
+   "avg_risk": 6.259,
+   "contact_rate": 0.4658,
+   "assess": 1.1736,
+   "care_plan": 0.6612,
+   "goals_met": 188,
+   "total_goals": 408,
+   "pct_completed": 0.2727,
+   "pct_disenrolled": 0.124,
+   "pct_active": 0.6033,
+   "goal_attainment": 0.4608
+  },
+  {
+   "program_name": "Diabetes Management",
+   "enrollments": 115,
+   "members": 78,
+   "avg_risk": 7.0592,
+   "contact_rate": 0.5022,
+   "assess": 1.2435,
+   "care_plan": 0.6783,
+   "goals_met": 186,
+   "total_goals": 388,
+   "pct_completed": 0.2957,
+   "pct_disenrolled": 0.1043,
+   "pct_active": 0.6,
+   "goal_attainment": 0.4794
+  },
+  {
+   "program_name": "High-Risk Case Management",
+   "enrollments": 77,
+   "members": 47,
+   "avg_risk": 5.2451,
+   "contact_rate": 0.5132,
+   "assess": 1.2597,
+   "care_plan": 0.7143,
+   "goals_met": 116,
+   "total_goals": 265,
+   "pct_completed": 0.2338,
+   "pct_disenrolled": 0.0779,
+   "pct_active": 0.6883,
+   "goal_attainment": 0.4377
+  }
+ ],
+ "fit_table": [
+  {
+   "program": "Diabetes Management",
+   "target_condition": "Diabetes",
+   "members": 78,
+   "pct_with_condition_evidence": 1.0,
+   "pct_any_chronic": 1.0
+  },
+  {
+   "program": "Cardiac Care",
+   "target_condition": "Cardiac",
+   "members": 69,
+   "pct_with_condition_evidence": 0.986,
+   "pct_any_chronic": 1.0
+  },
+  {
+   "program": "Asthma Control",
+   "target_condition": "Asthma",
+   "members": 49,
+   "pct_with_condition_evidence": 1.0,
+   "pct_any_chronic": 1.0
+  }
+ ],
+ "tgt_table": [
+  {
+   "group": "Top 1%",
+   "members": 10,
+   "pct_enrolled_ever": 0.2,
+   "pct_active": 0.1,
+   "paid_share": 0.0764
+  },
+  {
+   "group": "Top 5%",
+   "members": 50,
+   "pct_enrolled_ever": 0.36,
+   "pct_active": 0.28,
+   "paid_share": 0.2674
+  },
+  {
+   "group": "Top 10%",
+   "members": 100,
+   "pct_enrolled_ever": 0.35,
+   "pct_active": 0.27,
+   "paid_share": 0.448
+  },
+  {
+   "group": "Top 20%",
+   "members": 200,
+   "pct_enrolled_ever": 0.29,
+   "pct_active": 0.215,
+   "paid_share": 0.6974
+  },
+  {
+   "group": "Bottom 80%",
+   "members": 800,
+   "pct_enrolled_ever": 0.2312,
+   "pct_active": 0.1812,
+   "paid_share": 0.3026
+  }
+ ],
+ "dq": [
+  {
+   "area": "encounters",
+   "issue": "member_id is 14 chars (MBR-0000097101) vs 12 chars elsewhere; trailing '01' suffix on every row",
+   "records_affected": 3000,
+   "handling": "Stripped suffix (integer // 100) -> 99.2% of encounter rows then match a member in claims"
+  },
+  {
+   "area": "all",
+   "issue": "Extract has member IDs 1-1000 only (994 with claims) vs ~250,000 covered lives in the scenario",
+   "records_affected": 1000,
+   "handling": "Treated as a ~1,000-member sample. Report relative patterns/rates, never extrapolate $ totals to 250k"
+  },
+  {
+   "area": "all",
+   "issue": "No members/eligibility file: no demographics, enrollment dates, premiums or member-months",
+   "records_affected": 0,
+   "handling": "Assumed all 1,000 members continuously enrolled for the 288-day window (Jan 1 - Oct 15, 2025)"
+  },
+  {
+   "area": "claims",
+   "issue": "Claims window ends 2025-10-15 (not full-year 2025); paid dates run to 2025-11-28 (after the scenario's Oct 17 date)",
+   "records_affected": 427,
+   "handling": "Used incurred (claim_date) for trend; flagged Sep-Oct as incomplete; kept paid_amount as given"
+  },
+  {
+   "area": "claims",
+   "issue": "DENIED claims carry a paid_date (dictionary: null for denied) and member_responsibility > 0 ($172,693 total)",
+   "records_affected": 284,
+   "handling": "Paid amount is $0 on all denied claims, so cost = paid_amount; member_responsibility on denials noted but excluded from plan cost"
+  },
+  {
+   "area": "claims",
+   "issue": "PENDING claims already have paid_amount > 0 (and 96% a paid_date)",
+   "records_affected": 119,
+   "handling": "Included in plan cost (paid_amount as reported); sensitivity: excluding them changes totals by 2.6%"
+  },
+  {
+   "area": "claims",
+   "issue": "Diagnosis codes look weakly related to setting: e.g. Z00.00 (routine exam), J06.9 (URI), R51 (headache) appear as the diagnosis on inpatient stays costing $20k+",
+   "records_affected": 192,
+   "handling": "Kept as recorded; flagged as a coding / clinical-validation finding (or synthetic-data artefact). Condition analysis uses both claim dx and encounter flags"
+  },
+  {
+   "area": "claims",
+   "issue": "310 inpatient claims vs 242 inpatient-admit encounters for the same members",
+   "records_affected": 68,
+   "handling": "Counted utilisation from encounters (admits) and cost from claims; not reconciled 1:1 (no shared key)"
+  },
+  {
+   "area": "encounters",
+   "issue": "encounter_type missing",
+   "records_affected": 2,
+   "handling": "Left as 'UNKNOWN'; 1 has an inpatient-style stay, 1 has COPD flag - excluded from type-specific counts"
+  },
+  {
+   "area": "encounters",
+   "issue": "Each inpatient stay appears as an ADMIT row and (for most) a DISCHARGE row (242 admits vs 227 discharges)",
+   "records_affected": 469,
+   "handling": "Counted stays from INPATIENT_ADMIT rows only to avoid double counting"
+  },
+  {
+   "area": "encounters",
+   "issue": "readmission_flag TRUE on 18 admits but only 5 admits fall within 30 days of that member's prior discharge in this extract",
+   "records_affected": 18,
+   "handling": "Used the provided flag for reporting (cannot see pre-2025 stays) and noted that it cannot be reproduced; recommend validating the flag logic"
+  },
+  {
+   "area": "care_mgmt",
+   "issue": "risk_score above documented 0-10 range",
+   "records_affected": 5,
+   "handling": "Kept; capped at 10 when used in comparisons"
+  },
+  {
+   "area": "care_mgmt",
+   "issue": "enrollment_status=COMPLETED but program_completion_flag=FALSE",
+   "records_affected": 66,
+   "handling": "Used enrollment_status as the completion indicator; flag reported separately"
+  },
+  {
+   "area": "care_mgmt",
+   "issue": "disenrollment dates later than the data window / scenario date (up to 2026-04-11) on COMPLETED/DISENROLLED rows",
+   "records_affected": 43,
+   "handling": "Treated as scheduled/future-dated: enrollment considered open through the window for those rows"
+  },
+  {
+   "area": "care_mgmt",
+   "issue": "Same member enrolled in the same program more than once (repeat enrollments)",
+   "records_affected": 271,
+   "handling": "Kept (re-enrollment is plausible); member-level analyses use first enrollment"
+  },
+  {
+   "area": "care_mgmt",
+   "issue": "209 of 400 enrollments began in 2024 but claims start Jan 2025 - no pre-enrollment claims for those members",
+   "records_affected": 209,
+   "handling": "Pre/post analysis restricted to members first enrolled Feb-Jul 2025"
+  },
+  {
+   "area": "um",
+   "issue": "service_type vs procedure_code mismatches (e.g. DME and Home health coded with office-visit E/M codes 9921x)",
+   "records_affected": 442,
+   "handling": "Not used analytically; flagged"
+  },
+  {
+   "area": "ops",
+   "issue": "performance_status is direction-aware (+/-5% band) for most metrics but Medical Loss Ratio is labelled as if higher=better (e.g. 96.6% vs 85% target = ABOVE_TARGET)",
+   "records_affected": 10,
+   "handling": "Re-derived favourable/unfavourable status with explicit direction (lower MLR = favourable to plan margin)"
+  },
+  {
+   "area": "ops",
+   "issue": "Free-text notes are inconsistent with values (e.g. 'Data quality issue resolved' on Member Satisfaction 4.32; 'Below target - action plan needed' once)",
+   "records_affected": 9,
+   "handling": "Ignored notes"
+  }
+ ],
+ "svc_table": [
+  {
+   "service_category": "INPATIENT",
+   "claims": 310,
+   "paid": 6335267.68,
+   "avg_paid": 20436.3474,
+   "denied": 0.0935,
+   "pct_paid": 0.6948
+  },
+  {
+   "service_category": "OUTPATIENT",
+   "claims": 1020,
+   "paid": 1317155.25,
+   "avg_paid": 1291.3287,
+   "denied": 0.0735,
+   "pct_paid": 0.1444
+  },
+  {
+   "service_category": "EMERGENCY",
+   "claims": 306,
+   "paid": 672009.64,
+   "avg_paid": 2196.1099,
+   "denied": 0.0915,
+   "pct_paid": 0.0737
+  },
+  {
+   "service_category": "PHARMACY",
+   "claims": 1761,
+   "paid": 415515.42,
+   "avg_paid": 235.9542,
+   "denied": 0.0676,
+   "pct_paid": 0.0456
+  },
+  {
+   "service_category": "PROFESSIONAL",
+   "claims": 1703,
+   "paid": 378733.53,
+   "avg_paid": 222.392,
+   "denied": 0.084,
+   "pct_paid": 0.0415
+  }
+ ],
+ "den_table": [
+  {
+   "denial_reason": "Not medically necessary",
+   "claims": 95,
+   "allowed_value": 334199.02,
+   "member_resp": 46330.75
+  },
+  {
+   "denial_reason": "Out of network provider",
+   "claims": 96,
+   "allowed_value": 333441.01,
+   "member_resp": 51708.12
+  },
+  {
+   "denial_reason": "Service not covered",
+   "claims": 95,
+   "allowed_value": 244797.48,
+   "member_resp": 41442.68
+  },
+  {
+   "denial_reason": "Prior authorization required",
+   "claims": 108,
+   "allowed_value": 213836.67,
+   "member_resp": 33211.22
+  }
+ ],
+ "um_table": [
+  {
+   "service_type": "MRI",
+   "requests": 92,
+   "denial_rate": 0.2391,
+   "pending": 0.0326,
+   "avg_tat_days": 4.1087,
+   "appeal_rate": 0.0543
+  },
+  {
+   "service_type": "Surgery",
+   "requests": 100,
+   "denial_rate": 0.22,
+   "pending": 0.09,
+   "avg_tat_days": 3.95,
+   "appeal_rate": 0.08
+  },
+  {
+   "service_type": "Physical therapy",
+   "requests": 99,
+   "denial_rate": 0.2121,
+   "pending": 0.0202,
+   "avg_tat_days": 3.9495,
+   "appeal_rate": 0.101
+  },
+  {
+   "service_type": "DME",
+   "requests": 81,
+   "denial_rate": 0.1975,
+   "pending": 0.0247,
+   "avg_tat_days": 4.1728,
+   "appeal_rate": 0.0494
+  },
+  {
+   "service_type": "Specialty medication",
+   "requests": 83,
+   "denial_rate": 0.1928,
+   "pending": 0.0602,
+   "avg_tat_days": 3.7952,
+   "appeal_rate": 0.0361
+  },
+  {
+   "service_type": "Inpatient admission",
+   "requests": 83,
+   "denial_rate": 0.1928,
+   "pending": 0.0361,
+   "avg_tat_days": 4.0723,
+   "appeal_rate": 0.0602
+  },
+  {
+   "service_type": "CT Scan",
+   "requests": 83,
+   "denial_rate": 0.1807,
+   "pending": 0.012,
+   "avg_tat_days": 3.9036,
+   "appeal_rate": 0.0602
+  },
+  {
+   "service_type": "Home health",
+   "requests": 96,
+   "denial_rate": 0.1771,
+   "pending": 0.0625,
+   "avg_tat_days": 3.9583,
+   "appeal_rate": 0.0417
+  },
+  {
+   "service_type": "Skilled nursing facility",
+   "requests": 83,
+   "denial_rate": 0.1687,
+   "pending": 0.0482,
+   "avg_tat_days": 3.9759,
+   "appeal_rate": 0.0361
+  }
+ ],
+ "prio_n": 46,
+ "prio_by_program": {
+  "High-Risk Case Management": 20,
+  "Cardiac Care": 12,
+  "Asthma Control": 7,
+  "Diabetes Management": 7
+ },
+ "fac_top": [
+  {
+   "facility_id": "FAC-00000019",
+   "admits": 4,
+   "readmits": 0,
+   "alos": 6.5,
+   "ip_claims": 11,
+   "ip_paid": 260075.5,
+   "pct_ip_paid": 0.04
+  },
+  {
+   "facility_id": "FAC-00000002",
+   "admits": 4,
+   "readmits": 0,
+   "alos": 6.75,
+   "ip_claims": 10,
+   "ip_paid": 255715.69,
+   "pct_ip_paid": 0.04
+  },
+  {
+   "facility_id": "FAC-00000018",
+   "admits": 3,
+   "readmits": 1,
+   "alos": 2.33,
+   "ip_claims": 9,
+   "ip_paid": 250789.85,
+   "pct_ip_paid": 0.04
+  },
+  {
+   "facility_id": "FAC-00000010",
+   "admits": 3,
+   "readmits": 0,
+   "alos": 6.67,
+   "ip_claims": 9,
+   "ip_paid": 237454.38,
+   "pct_ip_paid": 0.04
+  },
+  {
+   "facility_id": "FAC-00000044",
+   "admits": 5,
+   "readmits": 0,
+   "alos": 7.2,
+   "ip_claims": 11,
+   "ip_paid": 235602.31,
+   "pct_ip_paid": 0.04
+  }
+ ],
+ "prv_top": [
+  {
+   "provider_id": "PRV-00000007",
+   "claims": 25,
+   "members": 24,
+   "paid": 144319.16,
+   "exp": 140123.774,
+   "denied": 0.12,
+   "ip_claims": 6,
+   "oe": 1.03,
+   "pct_paid": 0.016,
+   "denial_p": 0.304
+  },
+  {
+   "provider_id": "PRV-00000168",
+   "claims": 29,
+   "members": 27,
+   "paid": 144100.3,
+   "exp": 97774.743,
+   "denied": 0.103,
+   "ip_claims": 4,
+   "oe": 1.474,
+   "pct_paid": 0.016,
+   "denial_p": 0.391
+  },
+  {
+   "provider_id": "PRV-00000016",
+   "claims": 34,
+   "members": 33,
+   "paid": 141651.0,
+   "exp": 118223.002,
+   "denied": 0.029,
+   "ip_claims": 5,
+   "oe": 1.198,
+   "pct_paid": 0.016,
+   "denial_p": 0.935
+  },
+  {
+   "provider_id": "PRV-00000136",
+   "claims": 28,
+   "members": 27,
+   "paid": 137640.72,
+   "exp": 100444.413,
+   "denied": 0.071,
+   "ip_claims": 4,
+   "oe": 1.37,
+   "pct_paid": 0.015,
+   "denial_p": 0.648
+  },
+  {
+   "provider_id": "PRV-00000077",
+   "claims": 37,
+   "members": 35,
+   "paid": 127564.18,
+   "exp": 101705.314,
+   "denied": 0.027,
+   "ip_claims": 4,
+   "oe": 1.254,
+   "pct_paid": 0.014,
+   "denial_p": 0.949
+  }
+ ],
+ "opsum": [
+  {
+   "metric_name": "Average Call Wait Time",
+   "category": "Customer Service",
+   "avg": 3.04,
+   "target": 3.0,
+   "unit": "Minutes",
+   "months_unfav": 4,
+   "months_fav": 2,
+   "first": 3.32,
+   "last": 3.17,
+   "gap_pct": 1.4
+  },
+  {
+   "metric_name": "Care Management Enrollment Rate",
+   "category": "Quality",
+   "avg": 23.69,
+   "target": 25.0,
+   "unit": "Percentage",
+   "months_unfav": 7,
+   "months_fav": 2,
+   "first": 23.85,
+   "last": 21.39,
+   "gap_pct": -5.24
+  },
+  {
+   "metric_name": "Care Plan Completion Rate",
+   "category": "Quality",
+   "avg": 73.21,
+   "target": 75.0,
+   "unit": "Percentage",
+   "months_unfav": 5,
+   "months_fav": 2,
+   "first": 83.44,
+   "last": 72.58,
+   "gap_pct": -2.39
+  },
+  {
+   "metric_name": "Emergency Department Visit Rate",
+   "category": "Utilization",
+   "avg": 44.4,
+   "target": 45.0,
+   "unit": "Per 1000 members",
+   "months_unfav": 3,
+   "months_fav": 4,
+   "first": 42.16,
+   "last": 41.99,
+   "gap_pct": -1.34
+  },
+  {
+   "metric_name": "Generic Dispensing Rate",
+   "category": "Financial",
+   "avg": 85.1,
+   "target": 85.0,
+   "unit": "Percentage",
+   "months_unfav": 3,
+   "months_fav": 3,
+   "first": 94.45,
+   "last": 76.05,
+   "gap_pct": 0.12
+  },
+  {
+   "metric_name": "Hospital Readmission Rate",
+   "category": "Quality",
+   "avg": 11.98,
+   "target": 12.0,
+   "unit": "Percentage",
+   "months_unfav": 4,
+   "months_fav": 3,
+   "first": 13.6,
+   "last": 13.34,
+   "gap_pct": -0.21
+  },
+  {
+   "metric_name": "Medical Loss Ratio",
+   "category": "Financial",
+   "avg": 84.73,
+   "target": 85.0,
+   "unit": "Percentage",
+   "months_unfav": 4,
+   "months_fav": 4,
+   "first": 76.82,
+   "last": 90.26,
+   "gap_pct": -0.32
+  },
+  {
+   "metric_name": "Member Satisfaction Score",
+   "category": "Customer Service",
+   "avg": 4.4,
+   "target": 4.2,
+   "unit": "Score (1-5)",
+   "months_unfav": 2,
+   "months_fav": 6,
+   "first": 4.34,
+   "last": 3.67,
+   "gap_pct": 4.83
+  },
+  {
+   "metric_name": "Preventive Care Completion Rate",
+   "category": "Quality",
+   "avg": 65.96,
+   "target": 65.0,
+   "unit": "Percentage",
+   "months_unfav": 3,
+   "months_fav": 6,
+   "first": 73.82,
+   "last": 70.42,
+   "gap_pct": 1.47
+  },
+  {
+   "metric_name": "Prior Authorization Turnaround Time",
+   "category": "Utilization",
+   "avg": 2.45,
+   "target": 2.5,
+   "unit": "Days",
+   "months_unfav": 2,
+   "months_fav": 3,
+   "first": 2.47,
+   "last": 2.21,
+   "gap_pct": -1.84
+  }
+ ],
+ "recon_table": [
+  {
+   "month": "2025-01",
+   "ed_per_1000": 36,
+   "cm_members_pct": 16.2,
+   "readmit_pct": 30.43,
+   "pa_tat_days": 3.84,
+   "ops_ed": 42.16,
+   "ops_cm": 23.85,
+   "ops_readmit": 13.6,
+   "ops_pa_tat": 2.47
+  },
+  {
+   "month": "2025-02",
+   "ed_per_1000": 41,
+   "cm_members_pct": 17.4,
+   "readmit_pct": 18.75,
+   "pa_tat_days": 4.36,
+   "ops_ed": 44.29,
+   "ops_cm": 28.14,
+   "ops_readmit": 11.4,
+   "ops_pa_tat": 2.52
+  },
+  {
+   "month": "2025-03",
+   "ed_per_1000": 32,
+   "cm_members_pct": 19.0,
+   "readmit_pct": 9.38,
+   "pa_tat_days": 3.88,
+   "ops_ed": 48.23,
+   "ops_cm": 23.18,
+   "ops_readmit": 11.75,
+   "ops_pa_tat": 2.52
+  },
+  {
+   "month": "2025-04",
+   "ed_per_1000": 36,
+   "cm_members_pct": 20.1,
+   "readmit_pct": 9.09,
+   "pa_tat_days": 3.75,
+   "ops_ed": 46.9,
+   "ops_cm": 23.12,
+   "ops_readmit": 11.59,
+   "ops_pa_tat": 2.19
+  },
+  {
+   "month": "2025-05",
+   "ed_per_1000": 41,
+   "cm_members_pct": 20.9,
+   "readmit_pct": 0.0,
+   "pa_tat_days": 4.13,
+   "ops_ed": 38.72,
+   "ops_cm": 22.83,
+   "ops_readmit": 10.63,
+   "ops_pa_tat": 2.52
+  },
+  {
+   "month": "2025-06",
+   "ed_per_1000": 38,
+   "cm_members_pct": 21.6,
+   "readmit_pct": 7.14,
+   "pa_tat_days": 3.8,
+   "ops_ed": 47.92,
+   "ops_cm": 28.18,
+   "ops_readmit": 13.51,
+   "ops_pa_tat": 2.29
+  },
+  {
+   "month": "2025-07",
+   "ed_per_1000": 46,
+   "cm_members_pct": 22.5,
+   "readmit_pct": 5.56,
+   "pa_tat_days": 4.24,
+   "ops_ed": 39.23,
+   "ops_cm": 22.32,
+   "ops_readmit": 10.29,
+   "ops_pa_tat": 2.42
+  },
+  {
+   "month": "2025-08",
+   "ed_per_1000": 49,
+   "cm_members_pct": 21.6,
+   "readmit_pct": 0.0,
+   "pa_tat_days": 3.91,
+   "ops_ed": 44.1,
+   "ops_cm": 22.61,
+   "ops_readmit": 10.21,
+   "ops_pa_tat": 2.74
+  },
+  {
+   "month": "2025-09",
+   "ed_per_1000": 34,
+   "cm_members_pct": 21.4,
+   "readmit_pct": 0.0,
+   "pa_tat_days": 3.92,
+   "ops_ed": 50.41,
+   "ops_cm": 21.29,
+   "ops_readmit": 13.43,
+   "ops_pa_tat": 2.66
+  },
+  {
+   "month": "2025-10",
+   "ed_per_1000": 19,
+   "cm_members_pct": 21.0,
+   "readmit_pct": 0.0,
+   "pa_tat_days": 4.0,
+   "ops_ed": 41.99,
+   "ops_cm": 21.39,
+   "ops_readmit": 13.34,
+   "ops_pa_tat": 2.21
+  }
+ ]
+}
