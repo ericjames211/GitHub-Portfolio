@@ -1,5 +1,0 @@
-outcome,treated_pre,treated_post,control_pre,control_post,did,ci_low,ci_high,p_boot
-Paid $ per member-month (claims capped at P99),563.0821,1153.4762,972.6873,854.0547,709.0267,27.4607,1342.5314,0.0367
-Paid $ per member-month (uncapped),585.8698,1223.449,1001.9066,878.8025,760.6833,72.1518,1495.2695,0.0267
-"ED visits per 1,000 member-months",38.3025,39.4602,37.3003,42.8008,-4.3428,-42.475,31.8463,0.87
-"Inpatient admits per 1,000 member-months",19.7966,22.1888,23.2634,25.6005,0.0551,-28.4874,28.4093,0.95

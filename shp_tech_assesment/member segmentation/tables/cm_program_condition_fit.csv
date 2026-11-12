@@ -1,4 +1,0 @@
-program,target_condition,members,pct_with_condition_evidence,pct_any_chronic
-Diabetes Management,Diabetes,78,1.0,1.0
-Cardiac Care,Cardiac,69,0.9855,1.0
-Asthma Control,Asthma,49,1.0,1.0

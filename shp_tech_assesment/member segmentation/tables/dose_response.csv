@@ -1,9 +1,0 @@
-,engagement_marker,group,n,chg_cost_pm,se_cost,chg_ed_per_1000_mo
-0,Care plan created,Yes,49,410.2567,335.1058,-4.4965
-1,Care plan created,No,19,1054.959,771.187,15.7397
-2,Assessment completed (>=1),Yes,49,410.2567,335.1058,-4.4965
-3,Assessment completed (>=1),No,19,1054.959,771.187,15.7397
-4,Contact rate >= 50%,Yes,37,796.3329,316.8503,-5.6743
-5,Contact rate >= 50%,No,31,344.5962,601.1109,9.3121
-6,Goal attainment >= 50%,Yes,23,307.9146,491.6147,-1.6303
-7,Goal attainment >= 50%,No,45,734.7725,419.32,2.5827
